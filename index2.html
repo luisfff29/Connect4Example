@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Connect Four</title>
+    <!-- Link to JQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"
+      integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+    <!-- Link to Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Link to Google Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+
+  <style>
+    table {
+      margin: -2em auto;
+      transform: rotate(270deg);
+    }
+
+    td {
+      width: 6em;
+      height: 6em;
+      background-color: rgb(170, 170, 170);
+      border-radius: 50%;
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+      font-size: 2.2em;
+      margin-top: 1em;
+      font-family: fantasy;
+    }
+
+    .blue {
+      background-color: rgb(86, 151, 255);
+    }
+
+    .red {
+      background-color: rgb(237, 45, 73);
+    }
+  </style>
+
+  <body>
+    <div class="jumbotron jumbotron=fluid" style="text-align: center">
+      <div class="container" style="margin: -3em auto">
+        <h1 class="display-4">Welcome to Connect Four!</h1>
+        <h2>The object of this game is to connect four of your chips in a row!</h2>
+      </div>
+    </div>
+    <h3 id="moves">Let's get started</h3>
+
+    <table>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <script src="main.js"></script>
+  </body>
+
+</html>
